@@ -1,13 +1,9 @@
-here see ur xmr
-
-https://xmr.nanopool.org/account/84YR3pqYSCo84Ym1NfjFyeFxZV7fVHHF6Qet5FRbLfaSdXJp8qZAq8nAeSeoK5PpKP8oLRMkDSYFa18u8z1duesmDGCbket
-
-
+________________________________________________
 paste this in the nano startmining.sh
 
 ./xmrig -o stratum+ssl://xmr-asia1.nanopool.org:10343 -a randomx -u 84YR3pqYSCo84Ym1NfjFyeFxZV7fVHHF6Qet5FRbLfaSdXJp8qZAq8nAeSeoK5PpKP8oLRMkDSYFa18u8z1duesmDGCbket -p x --tls
 
-
+________________________________________________
 what to run:
 
 pkg install git wget curl nano vim htop unzip zip tar clang make python -y
@@ -20,17 +16,74 @@ mkdir build
 cd build
 cmake .. -DWITH_HWLOC=OFF
 make -j10
-nano startmining.sh  [put the script provided up]
-cd ~/xmrig
-chmod +x startmining.sh
+nano startmining.sh  [put the script provided up then press ctrl + x (ctrl is in termux options bar. x is from ur keyboard.) then press y and enter again enter.]
 cd ~/xmrig/build
-./startmining.sh.   [starts the mining session]
+chmod +x startmining.sh
+./startmining.sh   [starts the mining session]
 
 
 
-press ctrl + c to stop mining
+press ctrl + c to stop mining   [u will see a ctrl option in a bar in termux when u have keyboard]
 
 then run this to start another mining session(the above code was to start mining for the first time ever and to setup all required things]:
 
 cd ~/xmrig/build
 ./startmining.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+here see ur xmr
+
+https://xmr.nanopool.org/account/84YR3pqYSCo84Ym1NfjFyeFxZV7fVHHF6Qet5FRbLfaSdXJp8qZAq8nAeSeoK5PpKP8oLRMkDSYFa18u8z1duesmDGCbket
+
